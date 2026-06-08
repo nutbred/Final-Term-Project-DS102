@@ -1,16 +1,16 @@
-# Reddit Crawled Data
+# Dữ liệu crawl từ Reddit
 
-Thu muc nay chua du lieu review da crawl tu Reddit va cac bang phai sinh cho hoc may.
+Thư mục này chứa dữ liệu review đã crawl từ Reddit và các bảng phái sinh cho học máy.
 
 ## File
 
-- `perfumes_with_reviews.csv`: 636 nuoc hoa co it nhat mot review Reddit duoc gan voi perfume id.
-- `reddit_reviews_flat.csv`: 2.159 bai viet/binh luan Reddit o dang bang phang.
-- `reddit_reviews.jsonl`: review Reddit o dang JSONL, thuan tien cho doc tung dong.
-- `llm_profiles.csv`: 636 profile da duoc DeepSeek rut trich tu review.
-- `llm_profiles.jsonl`: profile DeepSeek o dang JSONL.
-- `similarity_hybrid_rrf_v3.csv`: 201.930 cap similarity theo method chinh trong bao cao.
+- `perfumes_with_reviews.csv`: 636 nước hoa có ít nhất một review Reddit được gắn với perfume id.
+- `reddit_reviews_flat.csv`: 2.159 bài viết/bình luận Reddit ở dạng bảng phẳng.
+- `reddit_reviews.jsonl`: review Reddit ở dạng JSONL, thuận tiện cho đọc từng dòng.
+- `llm_profiles.csv`: 636 profile đã được DeepSeek rút trích từ review.
+- `llm_profiles.jsonl`: profile DeepSeek ở dạng JSONL.
+- `similarity_hybrid_rrf_v3.csv`: 201.930 cặp similarity theo method chính trong báo cáo.
 
-## Ghi chu
+## Ghi chú
 
-Review Reddit la nguon van ban danh gia chinh. Pipeline chi chay similarity, PCA va clustering tren 636 nuoc hoa co review Reddit, khong chay tren toan bo catalog Fragrantica/Kaggle.
+Review Reddit là nguồn văn bản đánh giá chính. Pipeline chỉ chạy similarity, PCA và clustering trên 636 nước hoa có review Reddit, không chạy trên toàn bộ catalog Fragrantica/Kaggle.

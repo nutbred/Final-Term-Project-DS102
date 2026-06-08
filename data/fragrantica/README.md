@@ -1,15 +1,15 @@
-# Fragrantica/Kaggle Catalog
+# Danh mục Fragrantica/Kaggle
 
-Thu muc nay chua du lieu catalog ban dau, khong phai du lieu review duoc crawl truc tiep tu Fragrantica.
+Thư mục này chứa dữ liệu catalog ban đầu, không phải dữ liệu review được crawl trực tiếp từ Fragrantica.
 
 ## File
 
-- `fra_cleaned.csv`: ban da lam sach, dung chinh trong do an.
-- `fra_perfumes.csv`: ban du lieu goc duoc giu kem de doi chieu.
+- `fra_cleaned.csv`: bản đã làm sạch, dùng chính trong đồ án.
+- `fra_perfumes.csv`: bản dữ liệu gốc được giữ kèm để đối chiếu.
 
-## Vai tro trong pipeline
+## Vai trò trong pipeline
 
-- Lay ten nuoc hoa va hang de chon seed.
-- Lay note/accord lam tin hieu thanh phan mui.
-- Lay rating/votes de uu tien cac mau pho bien khi crawl Reddit.
-- Anh xa tu catalog sang review Reddit thong qua ten nuoc hoa va hang.
+- Lấy tên nước hoa và hãng để chọn seed.
+- Lấy note/accord làm tín hiệu thành phần mùi.
+- Lấy rating/votes để ưu tiên các mẫu phổ biến khi crawl Reddit.
+- Ánh xạ từ catalog sang review Reddit thông qua tên nước hoa và hãng.
